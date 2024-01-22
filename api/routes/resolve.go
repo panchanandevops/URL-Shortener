@@ -1,9 +1,10 @@
 package routes
 
 import (
+	"URL-Shortener/database"
+
 	"github.com/go-redis/redis/v8"
 	"github.com/gofiber/fiber/v2"
-	"github.com/panchanandevops/URL-Shortener/database"
 )
 
 // ResolveURL ...

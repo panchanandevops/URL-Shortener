@@ -5,12 +5,13 @@ import (
 	"strconv"
 	"time"
 
+	"URL-Shortener/database"
+	"URL-Shortener/helpers"
+
 	"github.com/asaskevich/govalidator"
 	"github.com/go-redis/redis/v8"
 	"github.com/gofiber/fiber/v2"
 	"github.com/google/uuid"
-	"github.com/panchanandevops/URL-Shortener/database"
-	"github.com/panchanandevops/URL-Shortener/helpers"
 )
 
 type request struct {
