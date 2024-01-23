@@ -9,7 +9,7 @@ import (
 	"log"
 	"os"
 
-	"URL-Shortener/routes"
+	"github.com/panchanandevops/URL-Shortener/routes"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"
